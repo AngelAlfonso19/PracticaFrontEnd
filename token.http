@@ -1,0 +1,19 @@
+###
+
+GET https://users-dasw.herokuapp.com/api/tokenDASW
+x-expediente:704635
+
+###
+POST https://users-dasw.herokuapp.com/api/users
+x-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBlZGllbnRlIjoiNzA0NjM1IiwiaWF0IjoxNTg1ODA2OTIzfQ.7ZUzBN9isMQly42eVe496Uok3edalV1PjH60_IOma7A
+Content-Type: application/json
+
+{
+"nombre":"L",
+"apellido":"G",
+"correo":"t@t.com",
+"url":"",
+"sexo":"H",
+"fecha":"10-10-2019",
+"password":"12345"
+}
